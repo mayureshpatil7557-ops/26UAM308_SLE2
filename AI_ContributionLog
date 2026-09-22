@@ -2,55 +2,84 @@
 
 ## Empirical Performance Analysis of BFS and A* for Grid-Based Robot Pathfinding
 
-| **Student** | Mayuresh Patil |
-|---|---|
-| **PRN** | 26UAM308 |
-| **Course** | 02AML204 – Introduction to Artificial Intelligence |
-| **Assignment** | SLE-2 |
+**Student:** Mayuresh Patil  
+**PRN:** 26UAM308  
+**Course:** 02AML204 – Introduction to Artificial Intelligence  
+**Assignment:** SLE-2  
 
 ---
 
-## AI Contribution Table
+## AI Contribution Summary
 
-| **Sr. No.** | **Activity** | **ChatGPT Contribution** | **Student Contribution** |
-|---:|---|---|---|
-| 1 | Problem Selection | Suggested suitable search-based problems for the SLE-2 performance analysis. | Selected grid-based robot pathfinding as the project problem. |
-| 2 | Algorithm Selection | Explained different search algorithms and helped identify suitable algorithms for comparison. | Selected BFS and A* for the performance comparison. |
-| 3 | BFS Understanding | Explained BFS, queue-based exploration, visited nodes, and shortest-path behavior. | Studied the concept and implemented and tested BFS. |
-| 4 | A* Understanding | Explained A*, heuristic search, `g(n)`, `h(n)`, and `f(n)`. | Studied the concept and implemented and tested A*. |
-| 5 | Heuristic Selection | Explained Manhattan Distance and its suitability for four-directional grid movement. | Used Manhattan Distance as the A* heuristic. |
-| 6 | Code Development | Provided coding guidance, structure suggestions, and debugging assistance. | Wrote, modified, executed, and tested the Python programs. |
-| 7 | Node Expansion | Explained how expanded nodes can be counted during search. | Implemented node counting and verified the results. |
-| 8 | Performance Measurement | Explained the use of Python `timeit` and repeated measurements. | Executed the timing experiments and recorded actual results. |
-| 9 | Case Analysis | Helped design Best, Average, and Worst experimental cases. | Created and executed `case_analysis.py` and verified the output. |
-| 10 | Result Collection | Explained how to organize execution time, path length, and node-expansion results. | Collected and verified the actual experimental values. |
-| 11 | Profiling | Explained `py-spy`, profiling commands, and flame graphs. | Installed `py-spy` and generated the BFS and A* profiling files. |
-| 12 | Profiling Analysis | Explained how flame graphs can be used as supporting runtime evidence. | Examined the generated profiling output and included it in the project. |
-| 13 | Complexity Analysis | Explained the theoretical complexity of BFS and the heap-based A* implementation. | Included the relevant complexity information in the report. |
-| 14 | Result Interpretation | Helped explain the relationship between execution time, nodes expanded, and algorithm overhead. | Compared the measured results and prepared observations. |
-| 15 | Report Preparation | Assisted with organizing the report structure and technical explanations. | Verified the experimental data and prepared the final report. |
-| 16 | GitHub Documentation | Assisted with preparing the README and contribution documentation. | Created the GitHub repository and uploaded the project files. |
+### 1. Problem Selection
 
----
+ChatGPT suggested suitable search-based problems for the SLE-2 performance analysis. The student selected grid-based robot pathfinding as the project problem.
 
-## Experimental Data Verification
+### 2. Algorithm Selection
 
-The following values were obtained by running the student's programs:
+ChatGPT explained different search algorithms and helped identify suitable algorithms for comparison. The student selected BFS and A* for the performance comparison.
 
-| **Case** | **Algorithm** | **Path Length** | **Nodes Expanded** | **Average Time (ms)** |
-|---|---|---:|---:|---:|
-| Best | BFS | 1 | 3 | 0.0051 |
-| Best | A* | 1 | 2 | 0.0066 |
-| Average | BFS | 13 | 53 | 0.0799 |
-| Average | A* | 13 | 32 | 0.0935 |
-| Worst | BFS | 21 | 69 | 0.1044 |
-| Worst | A* | 21 | 68 | 0.2009 |
+### 3. BFS Understanding
+
+ChatGPT explained BFS, queue-based exploration, visited nodes, and shortest-path behavior. The student studied the concept and implemented and tested BFS.
+
+### 4. A* Understanding
+
+ChatGPT explained A*, heuristic search, `g(n)`, `h(n)`, and `f(n)`. The student studied the concept and implemented and tested A*.
+
+### 5. Heuristic Selection
+
+ChatGPT explained Manhattan Distance and its suitability for four-directional grid movement. The student used Manhattan Distance as the A* heuristic.
+
+### 6. Code Development
+
+ChatGPT provided coding guidance, structure suggestions, and debugging assistance. The student wrote, modified, executed, and tested the Python programs.
+
+### 7. Node Expansion
+
+ChatGPT explained how expanded nodes can be counted during search. The student implemented node counting and verified the results.
+
+### 8. Performance Measurement
+
+ChatGPT explained the use of Python `timeit` and repeated measurements. The student executed the timing experiments and recorded the actual results.
+
+### 9. Case Analysis
+
+ChatGPT helped design Best, Average, and Worst experimental cases. The student created and executed `case_analysis.py` and verified the output.
+
+### 10. Result Collection
+
+ChatGPT explained how to organize execution time, path length, and node-expansion results. The student collected and verified the actual experimental values.
+
+### 11. Profiling
+
+ChatGPT explained `py-spy`, profiling commands, and flame graphs. The student installed `py-spy` and generated the BFS and A* profiling files.
+
+### 12. Profiling Analysis
+
+ChatGPT explained how flame graphs can be used as supporting runtime evidence. The student examined the generated profiling output and included it in the project.
+
+### 13. Complexity Analysis
+
+ChatGPT explained the theoretical complexity of BFS and the heap-based A* implementation. The student included the relevant complexity information in the report.
+
+### 14. Result Interpretation
+
+ChatGPT helped explain the relationship between execution time, nodes expanded, and algorithm overhead. The student compared the measured results and prepared the observations.
+
+### 15. Report Preparation
+
+ChatGPT assisted with organizing the report structure and technical explanations. The student verified the experimental data and prepared the final report.
+
+### 16. GitHub Documentation
+
+ChatGPT assisted with preparing the README and contribution documentation. The student created the GitHub repository and uploaded the project files.
 
 ---
 
 ## Role of AI
 
-ChatGPT was used as an **assistance and learning tool** for:
+ChatGPT was used as an assistance and learning tool throughout the project for:
 
 - Understanding BFS and A* algorithms
 - Understanding Manhattan Distance
@@ -62,11 +91,3 @@ ChatGPT was used as an **assistance and learning tool** for:
 - Interpreting profiling results
 - Organizing the technical report
 - Preparing GitHub documentation
-
-The student performed the actual **implementation, execution, testing, profiling, data collection, result verification, and final submission preparation**.
-
----
-
-## Declaration
-
-The experimental values in this project were obtained from actual program execution by the student. ChatGPT provided guidance and explanations but did not replace the student's execution and verification of the experiments.
